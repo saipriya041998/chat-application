@@ -1,0 +1,6 @@
+<input type="text" [(ngModel)]="messages" >
+<button (click)="onSendClick()" >Send</button>
+
+<div *ngFor="let item of message" >
+  <h1>{{item}}</h1>
+</div>
